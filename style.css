@@ -211,6 +211,7 @@ section{
 }
 
 /* Responsive styles for screens 480px and below */
+
 @media (max-width: 560px) {
 body{
   height: 100%;
