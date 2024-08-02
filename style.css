@@ -211,19 +211,29 @@ section{
 }
 
 /* Responsive styles for screens 480px and below */
-@media (max-width: 480px) {
+@media (max-width: 560px) {
+body{
+  height: 100%;
+  background-color: black;
+  background-image: url(./images/image-1.png);
+  background-size: cover;
+  background-position: center;
+}
   .home {
     grid-template-columns: 1fr;
     text-align: left;
   }
   .home-text h1 {
-    font-size: 24px;
+    color: white;
+    font-size: 27px;
   }
   .home-text h6 {
+    color: skyblue;
     font-size: 16px;
   }
   .home-text p {
-    font-size: 14px;
+    color: white;
+    font-size: 17px;
   }
   .latter form {
     flex-direction: column;
@@ -236,7 +246,7 @@ section{
   }
   .latter form input:last-child {
     margin-top: 10px;
-    position: static; 
+    position: static;
   }
 }
 
